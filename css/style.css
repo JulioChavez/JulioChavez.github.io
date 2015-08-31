@@ -1,32 +1,54 @@
+
+/* HOME SECTION */
+#home {
+	padding-top: 85px;
+	background-color: #f0f0f0;
+}
+/* ABOUT SECTION */
+#about {
+	padding-top: 45px;
+	background-color: #f0f0f0;
+}
+/* CONTACT SECTION*/
+#contact {
+	padding-top: 25px;
+	background-color: #333333;
+}
+#contact h1 {
+	color: #ffffff;
+}
+#contact p {
+	color: #ffffff;
+}
+/* SANTA CRUZ IMAGE SECTION */
 #santa-cruz { 
-			background: url(../images/SantaCruz.jpg) 0 fixed; 
-			background-size: cover;
-			background-repeat:no-repeat;
-			height: auto;  
-			margin: 0 auto; 
-	    width: 100%; 
-	    position: relative; 
-	    padding: 250px 0;
-		}
-		#yosemite { 
-			background: url(../images/Yosemite.jpg) 50% 0 fixed; 
-      background-size: cover;
-      background-repeat:no-repeat;
-			height: auto;  
-			margin: 0 auto; 
-	    width: 100%; 
-	    position: relative; 
-	    padding: 250px 0;
-		}
-    /* Headshot properties */
-    #headshot {
-      background: url(../images/juliochavez.png) no-repeat fixed;
-      float: left; 
-      background-size: contains;
-      padding-right: 20px;
-      padding-bottom: 20px;
-    }
-    #about {
-      padding-top: 50px;
-      background-color: #f0f0f0;
-    }
+	background: url(../images/santa-cruz.jpg) 0% fixed; 
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: auto;  
+	margin: 0 auto; 
+	width: 100%; 
+	position: relative; 
+	padding: 250px 0;
+}
+/* YOSEMITE IMAGE SECTION*/
+#yosemite { 
+	background: url(../images/yosemite.jpg) 0% fixed; 
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: auto;  
+	margin: 0 auto; 
+	width: 100%; 
+	position: relative; 
+	padding: 220px 0;
+}
+/* HEADSHOT PROPERTIES */
+#headshot {
+	float: left; 
+	background-size: contains;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+h1 {
+	white-space:nowrap;
+}

@@ -10,9 +10,11 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- smooth animate css file -->
-    <link rel="stylesheet" href="css/animate.css">  
+ 
+
+
+    <!-- Smooth crolling CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -28,27 +30,42 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Julio Chavez</a>
+          <a class="navbar-brand" href="#" data-target="#home">Julio Chavez</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#">CV</a></li>
+            <li class="active"><a href="#home" class="page-scroll">Home</a></li>
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+            <li><a href="files/JulioChavezResume.pdf" target="_blank" download>CV</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <!-- ABOUT SECTION -->
-    <section id="about">
+    <!-- HOME SECTION -->
+    <section id="home">
       <div class="container">
         <div id="#about-wrapper">
           <div id="headshot">
-            <img src="images/juliochavez.png" alt="Julio Chavez photo" height="286" width="250">
+            <img src="images/juliochavez.png" alt="Julio Chavez photo" height="300" width="260">
           </div><!-- /#headshot -->
           <div class="starter-template">
-            <h1>Julio Chavez <a href="http://www.linkedin.com/in/chavezjulio" target="_blank"><i class="fa fa-linkedin-square"></i></a></h1>
+            <h1>
+              Julio Chavez <br/>
+              <!-- LinkedIn Icon -->
+              <a href="http://www.linkedin.com/in/chavezjulio" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+              </a>
+              <!-- GitHub Icon -->
+              <a href="http://www.github.com/JulioChavez" target="_blank">
+                <i class="fa fa-github-square"></i>
+              </a>
+              <!-- Instagram Icon -->
+              <a href="http://www.instagram.com/juliochavez" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </h1>
             <p class="lead">
               Software Developer<br/>
               B.S. Computer Engineering, University of Florida 2016
@@ -68,15 +85,53 @@
               &nbsp;&nbsp;&nbsp;&nbsp;
               Association of Computer Engineers (ACE), Co-Founder<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;
-              UF Engineering Ambassador
+              UF Engineering Ambassadors
             </p>
           </div><!-- /.starter-template -->
         </div><!-- /#about-wrapper -->
       </div><!-- /.container -->
     </section>
 
+    <!-- YOSEMITE IMAGE -->
+    <section id="yosemite" data-speed="6" data-type="background"></section>
+
+    <!-- CONTACT ME SECTION -->
+    <section id="about">
+      <div class="container">
+        <h1>
+          About Me
+        </h1>
+        <p>
+            I was born in Venezuela to a loving family of engineers and musicians.<br/><br/>
+            
+            I was a happy kid growing up. However, in April 2002, there was an attempted coup d’état in Venezuela. Both of my parents, who worked as engineers for the government, protested against the then-President Hugo Chavez. The protests led to President Chavez laying off over 18,000 government workers, including my parents. Life became increasingly more dangerous and, on September 2003, my family made the difficult decision to emigrate from Venezuela to the United States. This decision proved to be a huge turning point for the better.<br/><br/>
+
+            Adapting to a new country and culture had its learning curve, but I came to love my new home. Shortly after starting school in the U.S. and learning English, I followed in my family’s footsteps when I discovered my passion for music and theatre. I ended up going to a magnet arts high school where I specialized in acting, musical theatre, and chorus. The following 4 years led to many great memories, from performing in front of over 7,000 people in Tampa to later taking a show on tour and performing in Scotland at the Edinburgh Festival Fringe, the world’s largest international theatre festival. While I did (and still do) enjoy the stage, I felt that I needed to expand my technical side, which led me to studying for my Bachelors in Computer Engineering at the University of Florida. <br/><br/>
+            
+            The transition from the arts into STEM was far from smooth. Not knowing how to study properly and manage my time led to me failing two courses, ending my first semester with a 1.89 GPA and academic probation. This set the tone for the rest of my academic career. I knew that I had to work hard to get far, and that’s what I set out to do. With the help of some great mentors, I was able to recover and now sit at a 3.49 GPA. <br/><br/>
+  
+            Since then, I became heavily involved on campus. I was fortunate enough to be elected the new IEEE UF student branch president and also helped co-found two other student organizations, the Association of Computer Engineers (ACE) and the Electrical & Computer Engineering Ambassadors (ECEA). One of my main goals going into these student leadership positions was to help others who are struggling. I hope to continue mentoring others and help them realize that everything is going to be okay. <br/><br/>
+  
+            In my free time, I like to relax by singing and playing guitar. Recently, my friends and I started an a Capella group consisting solely of engineers and had our first performance at the Engineering New Student Convocation. The College of Engineering has invited us to perform at future events so now I also have rehearsals to look forward to. <br/><br/>
+            
+            Even given life’s obstacles, I could not be more grateful for the way my life has turned out, for the people I had the pleasure to meet, and for the great times that are ahead. <br/><br/>
+        </p>
+      </div>
+    </section>
+
     <!-- SANTA CRUZ IMAGE -->
-    <section id="yosemite" data-speed="6" data-type="background">
+    <section id="santa-cruz" data-speed="6" data-type="background"></section>
+
+    <!-- CONTACT ME SECTION -->
+    <section id="contact">
+      <div class="container">
+        <h1>
+          Contact Me
+        </h1>
+        <p class="lead">
+          chavez.julio@gmail.com<br/>
+        </p>
+      </div>
     </section>
 
     <!-- Bootstrap core JavaScript
@@ -86,7 +141,10 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
 </html>
