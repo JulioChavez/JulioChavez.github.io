@@ -1,12 +1,14 @@
 /* HOME SECTION */
 #home {
-	padding-top: 85px;
-	background-color: #f0f0f0;
-}
-/* ABOUT SECTION */
-#about {
 	padding-top: 45px;
 	background-color: #f0f0f0;
+}
+/* EXPERIENCE SECTION */
+#experience {
+	padding-top: 45px;
+	padding-bottom: 20px;
+	/*background-color: #f0f0f0;*/
+	background-color: #ffffff;
 }
 /* CONTACT SECTION*/
 #contact {
@@ -18,6 +20,11 @@
 }
 #contact p {
 	color: #ffffff;
+}
+/* ABOUT SECTION */
+#about {
+	padding-top: 45px;
+	background-color: #f0f0f0;
 }
 /* SANTA CRUZ IMAGE SECTION */
 #santa-cruz { 
@@ -32,9 +39,10 @@
 }
 /* YOSEMITE IMAGE SECTION*/
 #yosemite { 
-	background: url(../images/yosemite.jpg) 0% fixed; 
+	background: url(../images/yosemite.jpg) 50% fixed; 
 	background-size: cover;
 	background-repeat:no-repeat;
+	background-position: 0px -180px;
 	height: auto;  
 	margin: 0 auto; 
 	width: 100%; 

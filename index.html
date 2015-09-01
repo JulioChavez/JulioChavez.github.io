@@ -14,11 +14,12 @@
     <!-- Smooth crolling CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 
   </head>
   <body>
 
+    <!-- NAVBAR -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -33,13 +34,17 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="#home" class="page-scroll">Home</a></li>
-            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#experience" class="page-scroll">Experience</a></li>
             <li><a href="#contact" class="page-scroll">Contact</a></li>
             <li><a href="files/JulioChavezResume.pdf" target="_blank" download>CV</a></li>
+            <li><a href="about.html" class="page-scroll">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+    <!-- YOSEMITE IMAGE -->
+    <section id="yosemite" data-speed="6" data-type="background"></section>
 
     <!-- HOME SECTION -->
     <section id="home">
@@ -96,29 +101,57 @@
       </div><!-- /.container -->
     </section>
 
-    <!-- YOSEMITE IMAGE -->
-    <section id="yosemite" data-speed="6" data-type="background"></section>
-
     <!-- CONTACT ME SECTION -->
-    <section id="about">
+    <section id="experience">
       <div class="container">
         <h1>
-          About Me
+          Experience
         </h1>
-        <p>
-            I was born in Venezuela to a loving family of engineers and musicians.<br/><br/>
-            
-            I was a happy kid growing up. However, in April 2002, there was an attempted coup d’état in Venezuela. Both of my parents, who worked as engineers for the government, protested against the then-President Hugo Chavez. The protests led to President Chavez laying off over 18,000 government workers, including my parents. Life became increasingly more dangerous and, on September 2003, my family made the difficult decision to emigrate from Venezuela to the United States. This decision proved to be a huge turning point for the better.<br/><br/>
 
-            Adapting to a new country and culture had its learning curve, but I came to love my new home. Shortly after starting school in the U.S. and learning English, I followed in my family’s footsteps when I discovered my passion for music and theatre. I ended up going to a magnet arts high school where I specialized in acting, musical theatre, and chorus. The following 4 years led to many great memories, from performing in front of over 7,000 people in Tampa to later taking a show on tour and performing in Scotland at the Edinburgh Festival Fringe, the world’s largest international theatre festival. While I did (and still do) enjoy the stage, I felt that I needed to expand my technical side, which led me to studying for my Bachelors in Computer Engineering at the University of Florida. <br/><br/>
-            
-            The transition from the arts into STEM was far from smooth. Not knowing how to study properly and manage my time led to me failing two courses, ending my first semester with a 1.89 GPA and academic probation. This set the tone for the rest of my academic career. I knew that I had to work hard to get far, and that’s what I set out to do. With the help of some great mentors, I was able to recover and now sit at a 3.49 GPA. <br/><br/>
-  
-            Since then, I became heavily involved on campus. I was fortunate enough to be elected the new IEEE UF student branch president and also helped co-found two other student organizations, the Association of Computer Engineers (ACE) and the Electrical & Computer Engineering Ambassadors (ECEA). One of my main goals going into these student leadership positions was to help others who are struggling. I hope to continue mentoring others and help them realize that everything is going to be okay. <br/><br/>
-  
-            In my free time, I like to relax by singing and playing guitar. Recently, my friends and I started an a Capella group consisting solely of engineers and had our first performance at the Engineering New Student Convocation. The College of Engineering has invited us to perform at future events so now I also have rehearsals to look forward to. <br/><br/>
-            
-            Even given life’s obstacles, I could not be more grateful for the way my life has turned out, for the people I had the pleasure to meet, and for the great times that are ahead. <br/><br/>
+        <h3>
+          Cisco
+        </h3>
+        <h5>
+          Software Engineer Intern &mdash; San Jose, CA
+        </h5>
+        <p>
+          <ul>
+            <li>Developed full-stack web tools for Cisco’s Security Business Group using the Django Python web framework</li>
+            <li>Pushed code into production on a daily basis for users ranging up to the Security VP of Engineering</li>
+            <li>Worked with a team of engineers across Cisco’s global sites to quickly deliver software solutions</li>
+          </ul>
+        </p>
+
+        <h3>
+          Dynetics
+        </h3>
+        <h5>
+          Software Engineer Intern &mdash; Huntsville, AL
+        </h5>
+        <p>
+          <ul>
+            <li>Developed C# server-side scripts for an airspace management system to dynamically render floating 3-D shapes onto Google Earth</li>
+            <li>Worked on-site with the customer along side contractors from several companies in a Scrum/Agile environment while completing projects in 2-week sprints</li>
+            <li>Performed quality and stress testing on existing customer software</li>
+            <li>Utilized Git revision control tools while coding in C#, JavaScript, HTML, and CSS</li>
+          </ul>
+        </p>
+
+        <h3>
+          Mindtree
+        </h3>
+        <h5>
+          Software Engineer Intern &mdash; Gainesville, FL
+        </h5>
+        <p>
+          <ul>
+            <li>Worked in an Agile environment and completed projects in 2-week sprints</li>
+            <li>Developed applications for the iPhone and Xbox Kinect</li>
+            <li>IDEs used include Visual Studio, MonoDevelop, and Eclipse</li>
+            <li>Utilized languages such as C#, Objective-C, UnrealScript, and Java</li>
+            <li>Created test plan documentation for web and iPhone applications</li>
+            <li>Took part in the completion of a Request for Proposal (RFP) for a multi-billion dollar company</li>
+          </ul>
         </p>
       </div>
     </section>
@@ -143,9 +176,9 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
